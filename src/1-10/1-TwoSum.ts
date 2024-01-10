@@ -8,7 +8,7 @@
 **You can return the answer in any order.
 */
 
-function twoSum(nums: number[], target: number): number[] {
+export default function twoSum(nums: number[], target: number): number[] {
   const map = new Map();
   for (let i = 0; i < nums.length; i++) {
     const howMuchToTarget = target - nums[i];
